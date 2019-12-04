@@ -6,9 +6,10 @@ import org.springframework.stereotype.Component;
 import pl.edu.wszib.model.Scooter;
 import java.util.List;
 
-@Component
+
 public class ScooterRepository {
     private static SessionFactory factory = new Configuration().configure().buildSessionFactory();
+
 
     public static void addScooter(Scooter scooter){
         Session session = factory.openSession();

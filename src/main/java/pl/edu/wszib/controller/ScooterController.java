@@ -37,11 +37,7 @@ public class ScooterController {
 
         @RequestMapping(value = "/add",method = RequestMethod.POST)
         public String addScooter(@ModelAttribute("addScooter")Scooter scooter){
-            if(scooter.getId() == 0) {
                 scooterRepository.addScooter(scooter);
-            }else{
-                scooterRepository.getUpdate(0,scooter);
-            }
             return "addScooter";
         }
 

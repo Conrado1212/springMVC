@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>ScooterApp</title>
+
+</head>
+<body>
+<form method ="post">
+    <input type ="text" placeholder="Id" name="id" th:field="*{scooterKey.id}">
+    <input type ="text" placeholder="Brand" name="brand" th:field="*{scooterKey.brand}">
+    <input type ="text" placeholder="Model" name="model" th:field="*{scooterKey.model}">
+    <input type ="text" placeholder="Price" name="price" th:field="*{scooterKey.price}">
+    <input type ="submit" value="OK">
+</form>
+
+</body>
+</html>

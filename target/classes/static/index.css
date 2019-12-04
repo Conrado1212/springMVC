@@ -1,0 +1,12 @@
+.button {
+    color: black;
+    font-size: 24px;
+    border: 1px solid blue;
+    padding: 5px 10px;
+    text-decoration: none;
+    }
+#hello-text{
+ color: black;
+ font-size: 24px;
+  border: 1px solid blue;
+}

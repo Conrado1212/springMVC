@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>ScooterApp</title>
+</head>
+<body>
+<div th:each="scooter: ${allScooterXiomi}">
+    <div th:text="'Id: '+${scooter.id}"></div>
+    <div th:text="'Brand: '+${scooter.brand}"></div>
+    <div th:text="'Model: '+${scooter.model}"></div>
+    <div th:text="'Price: '+${scooter.price}"></div>
+</div>
+</body>
+</html>

@@ -38,17 +38,17 @@ public class ScooterController {
         @RequestMapping(value = "/add",method = RequestMethod.POST)
         public String addScooter(@ModelAttribute("addScooter")Scooter scooter){
             if(scooter.getId() == 0) {
-                this.scooterRepository.addScooter(scooter);
+                scooterRepository.addScooter(scooter);
             }else{
-                this.scooterRepository.getUpdate(0,scooter);
+                scooterRepository.getUpdate(0,scooter);
             }
             return "addScooter";
         }
 
         @RequestMapping(value = "/removeScooterId",method = RequestMethod.DELETE)
         public String removeScooterId(@PathVariable("Id")int id, Model model){
-            model.addAttribute("allScooter",this.scooterRepository.getAllScooters());
-            this.scooterRepository.removeScooterId(id);
+            model.addAttribute("allScooter",scooterRepository.getAllScooters());
+            scooterRepository.removeScooterId(id);
             return "removeScooterId";
         }
 

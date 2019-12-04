@@ -21,21 +21,21 @@ public class ScootersController {
     @RequestMapping(value ="/allScooter",method = RequestMethod.GET)
     public String allScooter(Model model){
         model.addAttribute("scooter",new Scooter());
-        model.addAttribute("allScooter",this.scooterRepository.getAllScooters());
+        model.addAttribute("allScooter",scooterRepository.getAllScooters());
         return "allScooter";
     }
 
     @RequestMapping(value = "/allScooterXiomi",method = RequestMethod.GET)
     public String scooterXiaomiPage(Model model){
         model.addAttribute("scooter",new Scooter());
-        model.addAttribute("allScooterXiomi",this.scooterRepository.getAllScooterXiaomi());
+        model.addAttribute("allScooterXiomi",scooterRepository.getAllScooterXiaomi());
     return"allScooterXiomi";
     }
 
     @RequestMapping(value = "/allScooterFiat",method = RequestMethod.GET)
     public String scooterFiatPage(Model model){
         model.addAttribute("scooter",new Scooter());
-        model.addAttribute("allScooterFiat",this.scooterRepository.getAllScooterFiat());
+        model.addAttribute("allScooterFiat",scooterRepository.getAllScooterFiat());
         return "allScooterFiat";
     }
 

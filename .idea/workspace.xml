@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ec330c6a-bb85-4247-a35d-1c80a1a49a14" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/controller/ScooterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/controller/ScooterController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/indexAddScooter.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/indexAddScooter.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/removeScooterId.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/removeScooterId.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/edu/wszib/controller/ScooterController.class" beforeDir="false" />
-    </list>
+    <list default="true" id="ec330c6a-bb85-4247-a35d-1c80a1a49a14" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,8 +25,8 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="19" />
-          <entry key="html" value="1068" />
-          <entry key="java" value="5003" />
+          <entry key="html" value="1069" />
+          <entry key="java" value="5039" />
           <entry key="properties" value="2" />
           <entry key="xml" value="3" />
         </counts>
@@ -39,8 +34,8 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="19" />
-          <entry key="HTML" value="1068" />
-          <entry key="JAVA" value="5003" />
+          <entry key="HTML" value="1069" />
+          <entry key="JAVA" value="5039" />
           <entry key="Properties" value="2" />
           <entry key="XML" value="3" />
         </counts>
@@ -99,11 +94,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/edu/wszib/controller/ScooterController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="59" column="49" selection-start-line="59" selection-start-column="49" selection-end-line="59" selection-end-column="49" />
+            <state relative-caret-position="421">
+              <caret line="47" column="48" lean-forward="true" selection-start-line="47" selection-start-column="48" selection-end-line="47" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1376#1377#0" expanded="true" />
@@ -126,11 +121,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/indexRemoveScooterId.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="69" selection-start-line="9" selection-start-column="69" selection-end-line="9" selection-end-column="69" />
+            <state relative-caret-position="136">
+              <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -222,8 +217,8 @@
         <option value="$PROJECT_DIR$/src/main/java/pl/edu/wszib/controller/ScootersController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/removeScooterId.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/indexAddScooter.html" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/edu/wszib/controller/ScooterController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/indexRemoveScooterId.html" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/edu/wszib/controller/ScooterController.java" />
       </list>
     </option>
   </component>
@@ -374,7 +369,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575562889677" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575563311579" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../springmvc" />
   </component>
   <component name="RecentsManager">
@@ -650,22 +645,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/edu/wszib/controller/ScooterController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="59" column="49" selection-start-line="59" selection-start-column="49" selection-end-line="59" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1376#1377#0" expanded="true" />
-            <element signature="e#1424#1425#0" expanded="true" />
-            <element signature="e#2497#2498#0" expanded="true" />
-            <element signature="e#2541#2542#0" expanded="true" />
-            <element signature="e#2429#2430#0" expanded="true" />
-            <element signature="e#2520#2521#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/allScooter.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -682,8 +661,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/indexRemoveScooterId.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="69" selection-start-line="9" selection-start-column="69" selection-end-line="9" selection-end-column="69" />
+        <state relative-caret-position="136">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/edu/wszib/controller/ScooterController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="47" column="48" lean-forward="true" selection-start-line="47" selection-start-column="48" selection-end-line="47" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1376#1377#0" expanded="true" />
+            <element signature="e#1424#1425#0" expanded="true" />
+            <element signature="e#2497#2498#0" expanded="true" />
+            <element signature="e#2541#2542#0" expanded="true" />
+            <element signature="e#2429#2430#0" expanded="true" />
+            <element signature="e#2520#2521#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

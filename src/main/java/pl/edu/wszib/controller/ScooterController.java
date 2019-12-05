@@ -49,6 +49,11 @@ public class ScooterController {
             return  "redirect:indexAddScooter";
         }
 
+    @RequestMapping(value = "/indexAddScooter",method = RequestMethod.GET)
+    public String indexAddScooter(){
+        return"indexAddScooter";
+    }
+
         @RequestMapping(value = "/removeScooterId",method = RequestMethod.GET)
         public ModelAndView removeScooterId(){
            return new ModelAndView("removeScooterId","removeScooterIdKey",new Scooter());
@@ -87,5 +92,5 @@ public class ScooterController {
             return "updateScooter";
         }
 
-        
+
 }

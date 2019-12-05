@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ec330c6a-bb85-4247-a35d-1c80a1a49a14" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/controller/ScooterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/controller/ScooterController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/getScooter.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/getScooter.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/updateScooter.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/updateScooter.html" afterDir="false" />
-    </list>
+    <list default="true" id="ec330c6a-bb85-4247-a35d-1c80a1a49a14" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -68,7 +64,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/edu/wszib/controller/ScooterController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="540">
@@ -128,11 +124,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/addScooter.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="9" column="69" lean-forward="true" selection-start-line="9" selection-end-line="9" selection-end-column="69" />
+              <caret line="9" column="69" lean-forward="true" selection-start-line="8" selection-end-line="9" selection-end-column="69" />
             </state>
           </provider>
         </entry>
@@ -373,7 +369,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575564201350" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575564546051" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../springmvc" />
   </component>
   <component name="RecentsManager">
@@ -670,13 +666,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/addScooter.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="69" lean-forward="true" selection-start-line="9" selection-end-line="9" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/updateScooter.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -703,6 +692,13 @@
             <element signature="e#3918#3919#0" expanded="true" />
             <element signature="e#3957#3958#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/addScooter.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="69" lean-forward="true" selection-start-line="8" selection-end-line="9" selection-end-column="69" />
         </state>
       </provider>
     </entry>

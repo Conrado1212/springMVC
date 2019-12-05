@@ -45,7 +45,7 @@ public class ScooterController {
 
         @RequestMapping(value = "/addScooter",method = RequestMethod.POST)
         public String addScooterForm(@ModelAttribute("addScooterKey")Scooter scooter){
-            System.out.println(scooter);
+            scooterRepository.addScooter(scooter);
             return  "redirect:indexAddScooter";
         }
 

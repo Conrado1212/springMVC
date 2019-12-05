@@ -35,18 +35,41 @@ public class ScooterController {
             return "index";
         }
 
-        @RequestMapping(value = "/add",method = RequestMethod.POST)
-        public String addScooter(@ModelAttribute("addScooter")Scooter scooter){
-                scooterRepository.addScooter(scooter);
-            return "addScooter";
+
+        @RequestMapping(value = "/addScooter",method = RequestMethod.GET)
+        public ModelAndView addScooter(){
+            return new ModelAndView("addScooter","addScooterKey",new Scooter());
         }
 
-        @RequestMapping(value = "/removeScooterId",method = RequestMethod.DELETE)
-        public String removeScooterId(@PathVariable("Id")int id, Model model){
-            model.addAttribute("allScooter",scooterRepository.getAllScooters());
-            scooterRepository.removeScooterId(id);
+        @RequestMapping(value = "/addScooter",method = RequestMethod.POST)
+        public String addSCooterForm(@ModelAttribute("addScooterKey")Scooter scooter){
+            System.out.println(scooter);
+            return  "addScooter";
+        }
+
+        @RequestMapping(value = "/removeScooterId",method = RequestMethod.GET)
+        public ModelAndView removeScooterId(){
+            return new ModelAndView("removeScooterId","removeScooterIdKey",new Scooter());
+        }
+
+        @RequestMapping(value = "/removeScooterId",method = RequestMethod.POST)
+        public String removeScooterIdForm(@ModelAttribute("removeScooterIdKey")Scooter scooter){
+            System.out.println(scooter);
             return "removeScooterId";
         }
+     //   @RequestMapping(value = "/addScooter",method = RequestMethod.POST)
+      //  public String addScooter(@ModelAttribute("addScooter")Scooter scooter){
+      //          scooterRepository.addScooter(scooter);
+      //      return "addScooter";
+      //  }
+
+      //  @RequestMapping(value = "/removeScooterId",method = RequestMethod.DELETE)
+      //  public String removeScooterId(@PathVariable("Id")int id, Model model){
+       //     model.addAttribute("allScooter",scooterRepository.getAllScooters());
+        //    scooterRepository.removeScooterId(id);
+      //      return "removeScooterId";
+
+     //   }
 
    //     @RequestMapping(value = "updateScooter",method = RequestMethod.POST)
    //     public String updateScooter(@PathVariable("Id")int id, Model model){

@@ -8,12 +8,6 @@
 <body>
 <p id="hello-text"><b>Ktora hulajnego chcesz wyciagnac z bazy?</b></p>
 <a href="/allScooter" class="button">Pełna lista hulajnog</a><br><br>
-<div th:each="scooter: ${allScooter}">
-    <div th:text="'Id: '+${scooter.id}"></div>
-    <div th:text="'Brand: '+${scooter.brand}"></div>
-    <div th:text="'Model: '+${scooter.model}"></div>
-    <div th:text="'Price: '+${scooter.price}"></div>
-</div>
 <form method ="post">
     <input type ="text" placeholder="Id" name="id" th:field="*{getScooterKey.id}">
     <input type ="submit" value="OK">

@@ -77,9 +77,14 @@ public class ScooterController {
 
         @RequestMapping(value = "/getScooter",method = RequestMethod.POST)
         public String getScooterForm(@ModelAttribute("getScooterKey")Scooter scooter){
-            System.out.println(scooter);
-            return "getScooter";
+            scooterRepository.getScooter(scooter.getId());
+            return "redirect:indexGetScooter";
         }
+
+    @RequestMapping(value = "/indexGetScooter",method = RequestMethod.GET)
+    public String indexGetScooter(){
+        return"indexGetScooter";
+    }
 
         @RequestMapping(value = "/updateScooter",method = RequestMethod.GET)
         public ModelAndView updateScooter(){
@@ -88,9 +93,13 @@ public class ScooterController {
 
         @RequestMapping(value = "/updateScooter",method = RequestMethod.POST)
         public String updateScooterForm(@ModelAttribute("updateScooterKey")Scooter scooter){
-            System.out.println(scooter);
-            return "updateScooter";
+            scooterRepository.getUpdate(scooter.getId(),scooter);
+            return "redirect:indexGetScooter";
         }
 
+    @RequestMapping(value = "/indexUpdateScooter",method = RequestMethod.GET)
+    public String indexUpdateScooter(){
+        return"indexGetScooter";
+    }
 
 }

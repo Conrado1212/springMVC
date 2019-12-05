@@ -79,4 +79,17 @@ public class ScooterController {
             System.out.println(scooter);
             return "updateScooter";
         }
+
+  //  @RequestMapping(value ="/addScooter",method = RequestMethod.GET)
+   // public String allScooter(Model model){
+      // model.addAttribute("addScooter",new Scooter());
+        //model.addAttribute("addScooter",scooterRepository.addScooter());
+      //  return "addScooter";
+  //  }
+     // @RequestMapping(value ="/getScooter",method = RequestMethod.GET)
+   //  public String allScooter(Model model){
+        // model.addAttribute("addScooter",new Scooter());
+   // model.addAttribute("getScooter",scooterRepository.getScooter(1));
+   //   return "getScooter";
+   //  }
 }

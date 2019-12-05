@@ -81,46 +81,7 @@ public class ScooterController {
             System.out.println(scooter);
             return "updateScooter";
         }
-/*
 
- 1 --> Ogolnie listowanie czyta metody i wszystko ladnie smiga wiec idac podobnym tokiem rozumowania xd
-  Metody robie podobnie zeby czytaly z ScooterRepository.
-
-  @RequestMapping(value = "/allScooterXiomi",method = RequestMethod.GET)
-    public String scooterXiaomiPage(Model model){
-        model.addAttribute("scooter",new Scooter());
-        model.addAttribute("allScooterXiomi",scooterRepository.getAllScooterXiaomi());
-    return"allScooterXiomi";
-    }
-*/
-
-
-   // @RequestMapping(value ="/addScooter",method = RequestMethod.GET)
-   // public String allScooter(Model model){
-    //    model.addAttribute("addScooter",scooterRepository.addScooter());
-    //    return "addScooter";
-  // }
-
-
-
-  //    @RequestMapping(value ="/getScooter",method = RequestMethod.GET)
- //   public String allScooter1(Model model){
- //  model.addAttribute("getScooter",scooterRepository.getScooter(1));
-   //  return "getScooter";
-  //  }
-
-
-  //  @RequestMapping(value = "/addScooter",method =RequestMethod.POST)
-  //  public String addScooter(@ModelAttribute("addScooterKey")Scooter scooter){
-   //     scooterRepository.addScooter(scooter);
-   //     return "addScooter";
-  //  }
-
-  // @RequestMapping(value = "/removeScooterId",method = RequestMethod.POST)
-  //  public String removeScooterIdd(@ModelAttribute("removeScooterIdKey")int id){
-    //       scooterRepository.removeScooterId(id);
-   //         return "redirect:allScooter";
-   // }
 
     @RequestMapping(value = {"/removeScooterId","removeScooterAnotherId"}, method = RequestMethod.GET)
     public ModelAndView removeScooterId() {

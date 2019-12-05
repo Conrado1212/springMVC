@@ -42,9 +42,9 @@ public class ScooterController {
         }
 
         @RequestMapping(value = "/addScooter",method = RequestMethod.POST)
-        public String addSCooterForm(@ModelAttribute("addScooterKey")Scooter scooter){
+        public String addScooterForm(@ModelAttribute("addScooterKey")Scooter scooter){
             System.out.println(scooter);
-            return  "addScooter";
+            return  "redirect:indexAddScooter";
         }
 
         @RequestMapping(value = "/removeScooterId",method = RequestMethod.GET)
@@ -80,10 +80,11 @@ public class ScooterController {
             return "updateScooter";
         }
 
-  //  @RequestMapping(value ="/addScooter",method = RequestMethod.GET)
+   // @RequestMapping(value ="/addScooter",method = RequestMethod.GET)
    // public String allScooter(Model model){
-      // model.addAttribute("addScooter",new Scooter());
-        //model.addAttribute("addScooter",scooterRepository.addScooter());
+
+     //  model.addAttribute("addScooter",new Scooter());
+      //  model.addAttribute("addScooter",scooterRepository.addScooter());
       //  return "addScooter";
   //  }
      // @RequestMapping(value ="/getScooter",method = RequestMethod.GET)
@@ -92,4 +93,10 @@ public class ScooterController {
    // model.addAttribute("getScooter",scooterRepository.getScooter(1));
    //   return "getScooter";
    //  }
+
+  //  @RequestMapping(value = "/removeScooterId",method = RequestMethod.POST)
+    //public String removeScooterIdd(@ModelAttribute("removeScooterIdKey")int id){
+      //      scooterRepository.removeScooterId(id);
+      //      return "redirect:/AllScooter";
+    //}
 }

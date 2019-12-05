@@ -79,24 +79,44 @@ public class ScooterController {
             System.out.println(scooter);
             return "updateScooter";
         }
+/*
 
-   // @RequestMapping(value ="/addScooter",method = RequestMethod.GET)
-   // public String allScooter(Model model){
+ 1 --> Ogolnie listowanie czyta metody i wszystko ladnie smiga wiec idac podobnym tokiem rozumowania xd
+  Metody robie podobnie zeby czytaly z ScooterRepository.
 
-     //  model.addAttribute("addScooter",new Scooter());
-      //  model.addAttribute("addScooter",scooterRepository.addScooter());
-      //  return "addScooter";
-  //  }
-     // @RequestMapping(value ="/getScooter",method = RequestMethod.GET)
-   //  public String allScooter(Model model){
-        // model.addAttribute("addScooter",new Scooter());
-   // model.addAttribute("getScooter",scooterRepository.getScooter(1));
-   //   return "getScooter";
-   //  }
+  @RequestMapping(value = "/allScooterXiomi",method = RequestMethod.GET)
+    public String scooterXiaomiPage(Model model){
+        model.addAttribute("scooter",new Scooter());
+        model.addAttribute("allScooterXiomi",scooterRepository.getAllScooterXiaomi());
+    return"allScooterXiomi";
+    }
 
-  //  @RequestMapping(value = "/removeScooterId",method = RequestMethod.POST)
-    //public String removeScooterIdd(@ModelAttribute("removeScooterIdKey")int id){
-      //      scooterRepository.removeScooterId(id);
-      //      return "redirect:/AllScooter";
-    //}
+    2-> Pierwsza proba metody zeby mozna bylo dodac lecz gdy mam Model model nie moge miec w addScooter(Scooter
+    scooter) bo go nie widzi ogolnie wiec lipa
+
+    @RequestMapping(value ="/addScooter",method = RequestMethod.GET)
+    public String allScooter(Model model){
+        model.addAttribute("addScooter",scooterRepository.addScooter());
+        return "addScooter";
+   }
+
+
+ 3-> Proba z getScooter gdzie trzeba poda tylko Id niby wszystko fajnie ale wywala blad z App ze application fialed
+ odnosi sie do SpringBootApplication wiec tak tez sie nie da
+
+      @RequestMapping(value ="/getScooter",method = RequestMethod.GET)
+    public String allScooter(Model model){
+         model.addAttribute("addScooter",new Scooter());
+   model.addAttribute("getScooter",scooterRepository.getScooter(1));
+     return "getScooter";
+    }
+
+4-> Proga z remove gdzie tez tylko usuwamy po Id niby tez fajnie czyta metody ale wywala ten sam blad co wyzej z App
+application failed  i odnosi sie do SpringBootApplication
+
+   @RequestMapping(value = "/removeScooterId",method = RequestMethod.DELETE)
+    public String removeScooterIdd(@ModelAttribute("removeScooterIdKey")int id){
+           scooterRepository.removeScooterId(id);
+            return "redirect:/AllScooter";
+    }*/
 }

@@ -57,24 +57,26 @@ public class ScooterController {
             System.out.println(scooter);
             return "removeScooterId";
         }
-     //   @RequestMapping(value = "/addScooter",method = RequestMethod.POST)
-      //  public String addScooter(@ModelAttribute("addScooter")Scooter scooter){
-      //          scooterRepository.addScooter(scooter);
-      //      return "addScooter";
-      //  }
 
-      //  @RequestMapping(value = "/removeScooterId",method = RequestMethod.DELETE)
-      //  public String removeScooterId(@PathVariable("Id")int id, Model model){
-       //     model.addAttribute("allScooter",scooterRepository.getAllScooters());
-        //    scooterRepository.removeScooterId(id);
-      //      return "removeScooterId";
+        @RequestMapping(value = "/getScooter",method = RequestMethod.GET)
+        public ModelAndView getScooter(){
+            return new ModelAndView("getScooter","getScooterKey",new Scooter());
+        }
 
-     //   }
+        @RequestMapping(value = "/getScooter",method = RequestMethod.POST)
+        public String getScooterForm(@ModelAttribute("getScooterKey")Scooter scooter){
+            System.out.println(scooter);
+            return "getScooter";
+        }
 
-   //     @RequestMapping(value = "updateScooter",method = RequestMethod.POST)
-   //     public String updateScooter(@PathVariable("Id")int id, Model model){
-    //        model.addAttribute("updateScooter",this.scooterRepository.getUpdate(id,scooter));
-    //        model.addAttribute("allScooter",this.scooterRepository.getAllScooters());
-    //                return "updateScooter";
-     //   }
+        @RequestMapping(value = "/updateScooter",method = RequestMethod.GET)
+        public ModelAndView updateScooter(){
+            return new ModelAndView("updateScooter","updateScooterKey",new Scooter());
+        }
+
+        @RequestMapping(value = "/updateScooter",method = RequestMethod.POST)
+        public String updateScooterForm(@ModelAttribute("updateScooterKey")Scooter scooter){
+            System.out.println(scooter);
+            return "updateScooter";
+        }
 }

@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <title>ScooterApp</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
+<p id="hello-text"><b>Ktora hulajnego chcesz wyciagnac z bazy?</b></p>
 <div th:each="scooter: ${allScooter}">
     <div th:text="'Id: '+${scooter.id}"></div>
     <div th:text="'Brand: '+${scooter.brand}"></div>
@@ -12,7 +14,7 @@
     <div th:text="'Price: '+${scooter.price}"></div>
 </div>
 <form method ="post">
-    <input type ="text" placeholder="Id" name="id" th:field="*{scooterKey.id}">
+    <input type ="text" placeholder="Id" name="id" th:field="*{getScooterKey.id}">
     <input type ="submit" value="OK">
 </form>
 </body>

@@ -87,32 +87,5 @@ public class ScooterController {
             return "updateScooter";
         }
 
-
-   // @RequestMapping(value = {"/removeScooterId","removeScooterAnotherId"}, method = RequestMethod.GET)
- //   public ModelAndView removeScooterId() {
-  //      return new ModelAndView("removeScooterId", "removeScooterIdKey", new Scooter());
-  //  }
-
-   // @RequestMapping(value = "/removeScooterAnotherId", method = RequestMethod.POST)
-   // public String removeScooterIdd(@ModelAttribute("removeScooterIdKey") Scooter scooter) {
-   //     scooterRepository.removeScooterId(scooter.getId());
-   //     return "redirect:/indexRemoveScooterId";
-  //  }
-
-
-
-   // @RequestMapping(value = "/removequestion", method = RequestMethod.GET)
-  //  public ModelAndView removePage(){
-   //     return new ModelAndView("removequestion", "pytaniaKey", new Pytanie());
-  //  }
-
-
-   // @RequestMapping(value = "/removequestion", method = RequestMethod.POST)
-   // public String removeForm(@ModelAttribute("pytaniaKey") Pytanie pytanie) {
-
-
-      //  DBConnector.removeQuestion(pytanie.getIdPytania());
-//
-      //  return "redirect:home";
-   // }
+        
 }

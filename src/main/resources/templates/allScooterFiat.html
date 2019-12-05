@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <title>ScooterApp</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
+<p id="hello-text"><b>Wszystkie hulajnogi Fiat</b></p>
 <div th:each="scooter: ${allScooterFiat}">
     <div th:text="'Id: '+${scooter.id}"></div>
     <div th:text="'Brand: '+${scooter.brand}"></div>

@@ -7,6 +7,7 @@
 </head>
 <body>
 <p id="hello-text"><b>Ktorą hulajnoge chcesz usunac ?</b></p>
+<a href="/allScooter" class="button">Pełna lista hulajnog</a><br><br>
 <div th:each="scooter: ${allScooter}">
     <div th:text="'Id: '+${scooter.id}"></div>
     <div th:text="'Brand: '+${scooter.brand}"></div>

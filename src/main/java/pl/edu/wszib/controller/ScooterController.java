@@ -2,6 +2,7 @@ package pl.edu.wszib.controller;
 
 
 import org.dom4j.rule.Mode;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ModelAttribute;
@@ -17,6 +18,7 @@ import java.util.Scanner;
 @Controller
 public class ScooterController {
 
+    @Autowired
     ScooterRepository scooterRepository;
 
         @RequestMapping(value = "/scooter_page",method = RequestMethod.GET)
@@ -47,10 +49,10 @@ public class ScooterController {
             return  "redirect:indexAddScooter";
         }
 
-        @RequestMapping(value = "/removeScooterId",method = RequestMethod.GET)
-        public ModelAndView removeScooterId(){
-            return new ModelAndView("removeScooterId","removeScooterIdKey",new Scooter());
-        }
+      //  @RequestMapping(value = "/removeScooterId",method = RequestMethod.GET)
+     //   public ModelAndView removeScooterId(){
+      //      return new ModelAndView("removeScooterId","removeScooterIdKey",new Scooter());
+     //   }
 
         @RequestMapping(value = "/removeScooterId",method = RequestMethod.POST)
         public String removeScooterIdForm(@ModelAttribute("removeScooterIdKey")Scooter scooter){
@@ -90,33 +92,44 @@ public class ScooterController {
         model.addAttribute("allScooterXiomi",scooterRepository.getAllScooterXiaomi());
     return"allScooterXiomi";
     }
-
-    2-> Pierwsza proba metody zeby mozna bylo dodac lecz gdy mam Model model nie moge miec w addScooter(Scooter
-    scooter) bo go nie widzi ogolnie wiec lipa
-
-    @RequestMapping(value ="/addScooter",method = RequestMethod.GET)
-    public String allScooter(Model model){
-        model.addAttribute("addScooter",scooterRepository.addScooter());
-        return "addScooter";
-   }
+*/
 
 
- 3-> Proba z getScooter gdzie trzeba poda tylko Id niby wszystko fajnie ale wywala blad z App ze application fialed
- odnosi sie do SpringBootApplication wiec tak tez sie nie da
+   // @RequestMapping(value ="/addScooter",method = RequestMethod.GET)
+   // public String allScooter(Model model){
+    //    model.addAttribute("addScooter",scooterRepository.addScooter());
+    //    return "addScooter";
+  // }
 
-      @RequestMapping(value ="/getScooter",method = RequestMethod.GET)
-    public String allScooter(Model model){
-         model.addAttribute("addScooter",new Scooter());
-   model.addAttribute("getScooter",scooterRepository.getScooter(1));
-     return "getScooter";
+
+
+  //    @RequestMapping(value ="/getScooter",method = RequestMethod.GET)
+ //   public String allScooter1(Model model){
+ //  model.addAttribute("getScooter",scooterRepository.getScooter(1));
+   //  return "getScooter";
+  //  }
+
+
+  //  @RequestMapping(value = "/addScooter",method =RequestMethod.POST)
+  //  public String addScooter(@ModelAttribute("addScooterKey")Scooter scooter){
+   //     scooterRepository.addScooter(scooter);
+   //     return "addScooter";
+  //  }
+
+  // @RequestMapping(value = "/removeScooterId",method = RequestMethod.POST)
+  //  public String removeScooterIdd(@ModelAttribute("removeScooterIdKey")int id){
+    //       scooterRepository.removeScooterId(id);
+   //         return "redirect:allScooter";
+   // }
+
+    @RequestMapping(value = {"/removeScooterId","removeScooterAnotherId"}, method = RequestMethod.GET)
+    public ModelAndView removeScooterId() {
+        return new ModelAndView("removeScooterId", "removeScooterIdKey", new Scooter());
     }
 
-4-> Proga z remove gdzie tez tylko usuwamy po Id niby tez fajnie czyta metody ale wywala ten sam blad co wyzej z App
-application failed  i odnosi sie do SpringBootApplication
-
-   @RequestMapping(value = "/removeScooterId",method = RequestMethod.DELETE)
-    public String removeScooterIdd(@ModelAttribute("removeScooterIdKey")int id){
-           scooterRepository.removeScooterId(id);
-            return "redirect:/AllScooter";
-    }*/
+    @RequestMapping(value = "/removeScooterAnotherId", method = RequestMethod.POST)
+    public String removeScooterIdd(@ModelAttribute("removeScooterIdKey") int id) {
+        scooterRepository.removeScooterId(id);
+        return "redirect:/AllScooter";
+    }
 }

@@ -1,1 +1,1 @@
-# springMVC
+# WSZIB zadanie springMVC

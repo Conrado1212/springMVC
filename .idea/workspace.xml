@@ -1,27 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ec330c6a-bb85-4247-a35d-1c80a1a49a14" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/addScooter.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/addScooter.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/allScooter.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/allScooter.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/allScooterFiat.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/allScooterFiat.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/allScooterXiomi.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/allScooterXiomi.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/getScooter.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/getScooter.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/indexAddScooter.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/indexAddScooter.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/indexGetScooter.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/indexGetScooter.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/indexRemoveScooterId.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/indexRemoveScooterId.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/indexUpdateScooter.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/indexUpdateScooter.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/removeScooterId.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/removeScooterId.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/scooterPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/scooterPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/updateScooter.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/updateScooter.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/edu/wszib/controller/ScooterController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/edu/wszib/controller/ScooterController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/allScooter.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/allScooter.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/getScooter.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/getScooter.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/updateScooter.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/updateScooter.html" afterDir="false" />
-    </list>
+    <list default="true" id="ec330c6a-bb85-4247-a35d-1c80a1a49a14" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,7 +25,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="185" />
-          <entry key="html" value="1254" />
+          <entry key="html" value="1262" />
           <entry key="java" value="5139" />
           <entry key="properties" value="2" />
           <entry key="xml" value="3" />
@@ -54,7 +34,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="185" />
-          <entry key="HTML" value="1254" />
+          <entry key="HTML" value="1262" />
           <entry key="JAVA" value="5139" />
           <entry key="Properties" value="2" />
           <entry key="XML" value="3" />
@@ -64,7 +44,7 @@
         <counts>
           <entry key="class" value="2" />
           <entry key="css" value="7" />
-          <entry key="html" value="47" />
+          <entry key="html" value="51" />
           <entry key="java" value="20" />
           <entry key="properties" value="3" />
           <entry key="xml" value="3" />
@@ -74,7 +54,7 @@
         <counts>
           <entry key="CLASS" value="2" />
           <entry key="CSS" value="7" />
-          <entry key="HTML" value="47" />
+          <entry key="HTML" value="51" />
           <entry key="JAVA" value="20" />
           <entry key="Properties" value="3" />
           <entry key="XML" value="3" />
@@ -109,26 +89,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/allScooterXiomi.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="66" selection-start-line="8" selection-start-column="66" selection-end-line="8" selection-end-column="66" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/allScooterFiat.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="64" selection-start-line="8" selection-start-column="64" selection-end-line="8" selection-end-column="64" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/addScooter.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+            <state relative-caret-position="357">
+              <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
               <folding>
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -139,10 +101,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/static/index.css">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/removeScooterId.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+            <state relative-caret-position="391">
+              <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/addScooter.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="7" selection-start-line="7" selection-end-line="9" selection-end-column="30" />
+              <folding>
+                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -150,8 +126,27 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/indexRemoveScooterId.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="54" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
+            <state relative-caret-position="204">
+              <caret line="12" selection-start-line="12" selection-end-line="16" selection-end-column="8" />
+              <folding>
+                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/indexUpdateScooter.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" selection-start-line="12" selection-end-line="16" selection-end-column="8" />
+              <folding>
+                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -159,8 +154,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/scooterPage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="9" column="30" lean-forward="true" selection-start-line="8" selection-end-line="9" selection-end-column="30" />
+            <state relative-caret-position="68">
+              <caret line="7" selection-start-line="7" selection-end-line="9" selection-end-column="30" />
+              <folding>
+                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/updateScooter.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="8" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
               <folding>
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -173,8 +182,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/indexGetScooter.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="56" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
+            <state relative-caret-position="119">
+              <caret line="7" selection-start-line="7" selection-end-line="9" selection-end-column="30" />
+              <folding>
+                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -182,17 +196,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/indexAddScooter.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="52" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/allScooter.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" selection-start-line="19" selection-end-line="22" />
+            <state relative-caret-position="204">
+              <caret line="12" selection-start-line="12" selection-end-line="16" selection-end-column="8" />
               <folding>
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -250,19 +255,19 @@
         <option value="$PROJECT_DIR$/src/main/java/pl/edu/wszib/repository/ScooterRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/edu/wszib/controller/ScootersController.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/edu/wszib/controller/ScooterController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/scooterPage.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/updateScooter.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/removeScooterId.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/indexUpdateScooter.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/indexRemoveScooterId.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/indexGetScooter.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/indexAddScooter.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/allScooterXiomi.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/allScooterFiat.html" />
         <option value="$PROJECT_DIR$/src/main/resources/static/index.css" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/getScooter.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/allScooter.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/addScooter.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/allScooterFiat.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/allScooterXiomi.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/indexAddScooter.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/indexGetScooter.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/indexRemoveScooterId.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/indexUpdateScooter.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/removeScooterId.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/scooterPage.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/updateScooter.html" />
       </list>
     </option>
   </component>
@@ -612,66 +617,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/updateScooter.html">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="77" selection-start-line="8" selection-start-column="77" selection-end-line="8" selection-end-column="77" />
+        <state relative-caret-position="119">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/removeScooterId.html">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/allScooter.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="71" selection-start-line="8" selection-start-column="71" selection-end-line="8" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/indexUpdateScooter.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="60" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/indexRemoveScooterId.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="54" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/indexGetScooter.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="56" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/indexAddScooter.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="52" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/allScooterXiomi.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="66" selection-start-line="8" selection-start-column="66" selection-end-line="8" selection-end-column="66" />
+        <state relative-caret-position="153">
+          <caret line="9" column="30" lean-forward="true" selection-start-line="7" selection-end-line="9" selection-end-column="30" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/allScooterFiat.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="64" selection-start-line="8" selection-start-column="64" selection-end-line="8" selection-end-column="64" />
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="21" selection-end-column="8" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/index.css">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/allScooterXiomi.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+        <state relative-caret-position="357">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -687,22 +672,77 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/allScooter.html">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/addScooter.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" selection-start-line="19" selection-end-line="22" />
+        <state relative-caret-position="68">
+          <caret line="7" selection-start-line="7" selection-end-line="9" selection-end-column="30" />
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/indexAddScooter.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="16" selection-end-column="8" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/indexGetScooter.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="9" selection-end-column="30" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/indexRemoveScooterId.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="16" selection-end-column="8" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/indexUpdateScooter.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="16" selection-end-column="8" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/removeScooterId.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/scooterPage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="30" lean-forward="true" selection-start-line="8" selection-end-line="9" selection-end-column="30" />
+        <state relative-caret-position="68">
+          <caret line="7" selection-start-line="7" selection-end-line="9" selection-end-column="30" />
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -711,10 +751,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/addScooter.html">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/updateScooter.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+        <state relative-caret-position="340">
+          <caret line="20" column="8" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
